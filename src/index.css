@@ -9,3 +9,6 @@
 .logo{
   display: flex;
 }
+button{
+  cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 60px 20px 60px;
+    font-family: 'Poppins', sans-serif;
+ }
+  
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.footer-section {
+    flex: 1;
+    min-width: 180px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+}
+  
+.footer-section h3,.footer-section h4 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+.footer-section p {
+    margin: 0.4rem 0;
+    font-size: 0.9rem;
+    text-align: left;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.7rem;
+}
+  
+.email-input {
+    width: 180px;
+}
+.send-btn {
+    background-color: #db4444;
+    border: none;
+}
+.app-download {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.app-download img {
+    width: 90px;
+    height: auto;
+}
+.social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+  
+.footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #525252;
+}
+.final-section{
+    color: #b7b7b7;
+}
+.email-input {
+    background-color: #000;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+  
+.email-input::placeholder {
+    color: #999;
+}
+  
+.email-input:focus {
+    outline: none;
+    border-color: #db4444;
+    box-shadow: 0 0 0 1px #db4444;
+}
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.footer-section a:hover {
+    color: #db4444;
+}
+  
